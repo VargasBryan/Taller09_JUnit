@@ -9,12 +9,12 @@ public class MovieRentalTest extends junit.framework.TestCase {
         mulan = new Movie("Mulan", Movie.CHILDRENS);
         slumdogMillionaire = new Movie("Slumdog Millionaire", Movie.NEW_RELEASE);
     }
-
+//------------------------Movie-------------------------------------------------
     @Test
     public void testGetPriceCode() {
         assertEquals(Movie.REGULAR, theManWhoKnewTooMuch.getPriceCode());
     }
-
+//-----------------------Movie Rental-------------------------------------------
     @Test
     public void testGetTitle() {
         assertEquals("The Man Who Knew Too Much", theManWhoKnewTooMuch._title);
@@ -37,28 +37,28 @@ public class MovieRentalTest extends junit.framework.TestCase {
     public void testGetMovie() {
         assertEquals(theManWhoKnewTooMuch, new MovieRental(theManWhoKnewTooMuch, 2).getMovie());
     }
-
-    @Test
+//----------------------------------------------------Costumer-------------------
+    @Testv #Joel
     public void testGetName() {
         String name = "John Doe"; 
         assertEquals(name, new Customer(name)._name);
     }
 
-    @Test
+    @Test  #Eddy
     public void testStatementRegularMovieOnly() {
         // regular movies cost $2.00 for the first 2 days, and $1.50/day thereafter
         // a rental earns 1 frequent-renter point no matter how many days
         Customer johnDoe = new Customer("John Doe");
     }
 
-    @Test
+    @Test  #Maria
     public void testStatementChildrensMovieOnly() {
         // childrens' movies cost $1.50 for the first 3 days, and $1.25/day thereafter
         // a rental earns 1 frequent-renter point no matter how many days
         Customer johnDoeJr = new Customer("Johnny Doe, Jr.");
     }
 
-    @Test
+    @Test  #David
     public void testStatementNewReleaseOnly() {
         // new releases cost $3.00/day
         // a rental earns 1 frequent-renter point 1 day; 2 points for 2 or more days
