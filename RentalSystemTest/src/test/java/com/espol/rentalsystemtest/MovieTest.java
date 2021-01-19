@@ -48,6 +48,11 @@ public class MovieTest {
         int result = instance.getPriceCode();
         assertEquals(expResult, result);
     }
+    
+//    @Test
+//    public void testGetPriceCode() {
+//        assertEquals(Movie.REGULAR, theManWhoKnewTooMuch.getPriceCode());
+//    }
 
     /**
      * Test of setPriceCode method, of class Movie.

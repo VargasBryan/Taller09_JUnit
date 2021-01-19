@@ -41,26 +41,29 @@ public class CustomerTest {
      * Test of addMovieRental method, of class Customer.
      */
     
-    @Test
+    //---------------------------------Joel-------------------------------------
+    @Test  
     public void testGetName() {
         String name = "John Doe"; 
         assertEquals(name, new Customer(name)._name);
     }
     
+    //------------------------------Eddy----------------------------------------
     @Test 
     public void testStatementRegularMovieOnly() {
         // regular movies cost $2.00 for the first 2 days, and $1.50/day thereafter
         // a rental earns 1 frequent-renter point no matter how many days
         Customer johnDoe = new Customer("John Doe");
     }
-
+    //--------------------------------Maria-------------------------------------
     @Test  
     public void testStatementChildrensMovieOnly() {
         // childrens' movies cost $1.50 for the first 3 days, and $1.25/day thereafter
         // a rental earns 1 frequent-renter point no matter how many days
         Customer johnDoeJr = new Customer("Johnny Doe, Jr.");
     }
-
+    
+    //------------------------------David---------------------------------------
     @Test  
     public void testStatementNewReleaseOnly() {
         // new releases cost $3.00/day
