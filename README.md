@@ -6,3 +6,5 @@
 ### Clase CustomerTest - método testStatementChildrenMovieOnly()
 ![CLASE DDISEÑO TALLER JUNIT](https://user-images.githubusercontent.com/68446139/105116352-9bc77100-5a98-11eb-9fef-2637df5e9ba3.JPG)
 ![test pasado](https://user-images.githubusercontent.com/68446139/105116553-fc56ae00-5a98-11eb-8792-4cfab919d0e4.jpeg)
+### Clase CustomerTest - método testStatementNewReleaseOnly()
+![testStatementNewReleaseOnly]()
