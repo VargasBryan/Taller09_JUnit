@@ -7,4 +7,4 @@
 ![CLASE DDISEÑO TALLER JUNIT](https://user-images.githubusercontent.com/68446139/105116352-9bc77100-5a98-11eb-9fef-2637df5e9ba3.JPG)
 ![test pasado](https://user-images.githubusercontent.com/68446139/105116553-fc56ae00-5a98-11eb-8792-4cfab919d0e4.jpeg)
 ### Clase CustomerTest - método testStatementNewReleaseOnly()
-![testStatementNewReleaseOnly](/imagenes/testMovieRental4.png)
+![testMovieRental4](https://user-images.githubusercontent.com/29549000/105118107-c8c95300-5a9b-11eb-8cac-fe2cf7dda126.png)
